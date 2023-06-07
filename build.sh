@@ -2,4 +2,9 @@
 
 CFLAGS="-Wall -Wextra -pedantic"
 
-gcc $CFLAGS -o vec.out src/vec.c
+if [ ! -d "bin/" ]; then
+	mkdir bin
+fi
+
+gcc $CFLAGS -o bin/vec.out src/vec.c
+gcc $CFLAGS -o bin/ll.out src/ll.c
