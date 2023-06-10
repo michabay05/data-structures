@@ -3,9 +3,7 @@ This is a practice repository in which I attempt to implement common data struct
 
 ## Data Structures to implement
 - [x] Vector
-- [ ] Linked List
-- [ ] Queue
-- [ ] Stack
+- [x] Linked List
 
 ## Quickstart
 Make sure `gcc` is installed beforehand

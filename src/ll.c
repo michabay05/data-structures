@@ -91,11 +91,11 @@ void ll_deinit(LL* ll) {
 
 int main(void) {
     LL ll = ll_init();
+    ll_append(&ll, -100);
     for (int i = -500; i < 1000; i++) {
         ll_append(&ll, i * 2);
     }
-    ll_print(&ll);
 
     ll_deinit(&ll);
-    return 0;
+    return EXIT_SUCCESS;
 }
